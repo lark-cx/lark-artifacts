@@ -1,0 +1,14 @@
+#/etc/notify-send.toml
+
+# Server and topic
+server = "https://ntfy.sh"
+topic = "your-topic-here"
+
+# Optional authentication
+token = "tk_your_token_here"
+
+# Optional encryption - if set, all messages are encrypted client-side
+password = "your-secret-password"
+
+# Optional priority
+priority = "default"
